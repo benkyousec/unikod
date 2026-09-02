@@ -1,0 +1,26 @@
+# Jython bytecode (produced next to source when the extension is
+# loaded/reloaded in Burp, e.g. BurpExtender$py.class)
+*.py.class
+*.class
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Test output artefacts
+tests/smoke_wordlist.txt
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+
+# Logs & misc
+*.log
+*.tmp
